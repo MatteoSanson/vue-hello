@@ -10,8 +10,13 @@
     <!-- /my css  -->
 </head>
 <body>
-    <div id="app">{{ message }}</div>
-    
+    <div id="app">
+        <div class="container">
+            <h1>{{title}}</h1>
+            <img :src="immagineUrl" :alt="immagineAlt">
+        </div>
+    </div>
+
     <!-- vue js  -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!-- /vue js  -->

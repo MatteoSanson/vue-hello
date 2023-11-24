@@ -3,7 +3,9 @@ const { createApp } = Vue
   createApp({
     data() {
       return {
-        message: 'Hello Vue!'
+        title: 'Hello Vue!',
+        immagineUrl: "https://picsum.photos/600/300",
+        immagineAlt: "immagine random 600x300"
       }
     }
   }).mount('#app')
